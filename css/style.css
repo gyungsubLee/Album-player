@@ -105,7 +105,7 @@ body {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid #BCBCBC;
-  background: linear-gradient(to right, #1e1d1d 0%, #f8f8f6 55%)
+  background: linear-gradient(to right, #1e1d1d 0%, #f8f8f6 55%);
 }
 
 
@@ -120,7 +120,7 @@ body {
 
 .controls input:checked+label,
 .controls label:active {
-  background: linear-gradient(to right, #1e1d1d 0%, #f8f8f6 98%);
+  background: radial-gradient(#1e1d1d 0%, #fff);
   box-shadow: inset 0px 0px 10px 5px rgba(120, 120, 120, 0.2);
   border: 1px solid #fff;
 }
