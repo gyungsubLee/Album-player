@@ -283,7 +283,7 @@
 .slider-target:nth-of-type(3):checked~.slider__viewport .slider-item:nth-child(3):hover>.slider-item__inner,
 .slider-target:nth-of-type(2):checked~.slider__viewport .slider-item:nth-child(2):hover>.slider-item__inner,
 .slider-target:nth-of-type(1):checked~.slider__viewport .slider-item:nth-child(1):hover>.slider-item__inner {
-    filter: blur(5px);
+    filter: blur(2px);
 }
 
 
@@ -315,4 +315,5 @@
 .slider-target:nth-of-type(2):checked~.slider__viewport .slider-item:nth-child(2):hover>.slider-to-album:hover,
 .slider-target:nth-of-type(1):checked~.slider__viewport .slider-item:nth-child(1):hover>.slider-to-album:hover {
     transform: scale(1.2);
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.4);
 }

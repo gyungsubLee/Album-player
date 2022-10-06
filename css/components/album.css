@@ -94,7 +94,7 @@
 
 .controls input:checked+label,
 .controls label:active {
-    background: radial-gradient(#1e1d1d 0%, #fff);
+    background: linear-gradient(to right, #1e1d1d 0%, #C0BFBF 55%, #f8f8f6 95%);
     box-shadow: inset 0px 0px 10px 5px rgba(120, 120, 120, 0.2);
     border: 1px solid #fff;
 }
