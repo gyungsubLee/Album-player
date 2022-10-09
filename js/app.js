@@ -43,6 +43,7 @@ const handleSToA = (idx)=> {
     albumImg1.src = tracks[idx]["cover"];
     albumImg2.src = tracks[idx]["cover"];
     Msound.src = tracks[idx]["source"];
+    ABPlayBnt.checked = false;
     setTimeout(()=>{
         albumContainer.classList.remove("hidden");
         sliderContainer.classList.add("hidden");
